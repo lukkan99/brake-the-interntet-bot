@@ -23,6 +23,6 @@ async def on_message(message):
         await asyncio.sleep(5)
         await client.edit_message(tmp, "you're isp has blocked the use of this bot, sorry!, go look at here for the current ISP pricing plans for discord.")
         await asyncio.sleep(2)
-        await client.send_message(message.channel, 'dont make this reallty check. this out: https://www.battleforthenet.com/)
+        await client.send_message(message.channel, "If you wouldn't like this to become a reality, please visit https://battleforthenet.com/")
 
 client.run(token)
