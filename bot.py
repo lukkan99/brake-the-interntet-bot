@@ -21,7 +21,7 @@ async def on_message(message):
         counter = 0
         tmp = await client.send_message(message.channel, 'running cmd. culd be slow as host ips slowing down connation to discord api')
         await asyncio.sleep(5)
-        await client.edit_message(tmp, "youre ips has blocked the use this bot sorry!")
-        await client.send_message(message.channel, 'https://www.battleforthenet.com/')
+        await client.edit_message(tmp, "you're ips has blocked the use this bot sorry! go look at hare current plans for discord.")
+        await client.send_message(message.channel, 'dont make this reallty check this out. https://www.battleforthenet.com/')
 
 client.run(token)
