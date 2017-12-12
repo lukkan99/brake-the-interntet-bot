@@ -1,6 +1,6 @@
 import discord
 import asyncio
-token = "bot token hare
+token = "bot token hare"
 prefix = "prefix hare"
 
 client = discord.Client()
